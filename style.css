@@ -1,0 +1,31 @@
+.title{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(93, 116, 248);
+}
+.dropdown-large{
+    width: 700px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid red;
+}
+.list-unstyled li {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.list-unstyled li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 600px) {
+    .dropdown-large{
+        width: 100%;
+    }
+  }
