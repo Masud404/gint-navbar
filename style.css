@@ -45,7 +45,7 @@ body{
 }
 .first_Menu a {
 	text-decoration: none;
-	margin-left: 15px;
+	/* margin-left: 15px; */
 	color: black;
 }
 .first_Menu:hover a{
